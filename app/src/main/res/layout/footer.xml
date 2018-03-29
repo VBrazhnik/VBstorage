@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="horizontal"
+    android:paddingBottom="8dp"
+    android:paddingTop="8dp">
+
+    <ImageButton
+        android:id="@+id/add_text"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:background="@color/transparent"
+        android:paddingBottom="0dp"
+        android:paddingTop="0dp"
+        android:src="@drawable/letter"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/add_img"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp"
+        android:src="@drawable/image"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/add_drawing"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp"
+        android:src="@drawable/drawing"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/add_webpage"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp"
+        android:src="@drawable/webpage"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/add_mic"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp"
+        android:src="@drawable/mic"
+        tools:ignore="ContentDescription" />
+
+</LinearLayout>
