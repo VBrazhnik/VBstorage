@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VBstorage</string>
+    <string name="player_save">Зберегти</string>
+    <string name="player_paused">Призупинено</string>
+    <string name="player_recording">Запис</string>
+    <string name="player_playing">Відтворення</string>
+    <string name="title">Заголовок</string>
+    <string name="text">Текст</string>
+    <string name="tags">Теги</string>
+    <string name="trash">Кошик</string>
+    <string name="tag_name">Назва тегу</string>
+    <string name="create_new_tag">Створити новий тег</string>
+    <string name="clear">Очистити</string>
+    <string name="search">Пошук</string>
+    <string name="settings">Налаштування</string>
+    <string name="clean_all">Очистити все</string>
+    <string name="saved">Збережено</string>
+    <string name="moved_to_trash">Переміщено у Кошик</string>
+    <string name="take_photo">Зробити знімок</string>
+    <string name="choose_from_gallery">Обрати з Галереї</string>
+    <string name="view">Переглянути</string>
+    <string name="restored">Відновлено</string>
+    <string name="enter_tag_name">Введіть назву тегу</string>
+    <string name="delete_tag">Видалити тег?</string>
+    <string name="delete">Видалити</string>
+    <string name="cancel">Відмінити</string>
+    <string name="tag">Тег</string>
+    <string name="items_will_be_safe">буде видалено, але медіа-контент залишиться в безпеці</string>
+</resources>

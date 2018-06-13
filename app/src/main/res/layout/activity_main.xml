@@ -24,30 +24,25 @@
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
-                android:background="@android:color/white"
-                app:layout_scrollFlags="scroll|enterAlways" />
+                android:background="@color/white"
+                android:elevation="0dp"
+                app:layout_scrollFlags="scroll|enterAlways"/>
 
-            <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            <HorizontalScrollView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:background="@color/transparent"
                 android:scrollbars="none">
 
-                <LinearLayout
+                <com.vbrazhnik.vbstorage.tag.TagLayout
+                    android:id="@+id/checkboxes"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
-
-                    <com.vbrazhnik.vbstorage.TagRadioGroup
-                        android:id="@+id/segmented5"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:orientation="horizontal">
-
-                    </com.vbrazhnik.vbstorage.TagRadioGroup>
-                </LinearLayout>
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingEnd="5dp"
+                    android:paddingStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"/>
 
             </HorizontalScrollView>
 
@@ -57,13 +52,22 @@
             android:id="@+id/main_list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            tools:listitem="@layout/item_text"
+            android:background="#eaeaea"
+            android:paddingEnd="3dp"
+            android:paddingStart="3dp"
             app:layout_behavior="@string/appbar_scrolling_view_behavior"
-            />
+            tools:listitem="@layout/card_item_text"
+            android:clipToPadding="false"
+            android:paddingBottom="6dp"
+            android:layoutAnimation="@anim/layout_animation_from_bottom"/>
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/shadow_above"/>
 
     </android.support.design.widget.CoordinatorLayout>
-
 
     <RelativeLayout
         android:id="@+id/footer"

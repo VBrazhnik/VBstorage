@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="56dp"
+	android:background="@color/white"
+	android:focusableInTouchMode="true"
+	android:focusable="true">
+
+	<ImageButton
+		android:id="@+id/left_button"
+		android:layout_width="56dp"
+		android:layout_height="56dp"
+		android:layout_gravity="start|center_vertical"
+		android:padding="16dp"
+		android:src="@drawable/tag_plus"
+		android:background="@color/white"
+		tools:ignore="ContentDescription"/>
+
+	<EditText
+		android:id="@+id/tag_name_text_new"
+		android:layout_width="match_parent"
+		android:layout_height="56dp"
+		android:layout_marginLeft="56dp"
+		android:layout_marginRight="56dp"
+		android:background="@color/white"
+		android:fontFamily="@font/rubik"
+		android:hint="@string/create_new_tag"
+		android:imeOptions="actionDone"
+		android:singleLine="true"
+		android:textColor="@color/black"
+		android:textColorHint="@color/black"
+		tools:ignore="RtlSymmetry"/>
+
+	<ImageButton
+		android:id="@+id/done_button"
+		android:layout_width="56dp"
+		android:layout_height="56dp"
+		android:layout_gravity="end|center_vertical"
+		android:background="@color/white"
+		android:padding="16dp"
+		android:src="@drawable/tag_done"
+		android:visibility="gone"
+		tools:ignore="ContentDescription"/>
+
+</FrameLayout>

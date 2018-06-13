@@ -1,20 +1,31 @@
 <resources>
     <string name="app_name">VBstorage</string>
-
-
-    <string name="title_activity_main2">Main2Activity</string>
-    <string name="title_activity_main">Draw Canvas</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
-    <string name="title_delete">Delete</string>
-    <string name="title_draw">Draw</string>
-    <string name="title_save">Save</string>
-
-
-
-
-
-
-
+    <string name="player_save">Save</string>
+    <string name="player_paused">Paused</string>
+    <string name="player_recording">Recording</string>
+    <string name="player_playing">Playing</string>
+    <string name="title">Title</string>
+    <string name="text">Text</string>
+    <string name="start_time" translatable="false">00:00:00</string>
+    <string name="tags">Tags</string>
+    <string name="trash">Trash</string>
+    <string name="tag_name">Tag name</string>
+    <string name="create_new_tag">Create new tag</string>
+    <string name="clear">Clear</string>
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+    <string name="clean_all">Clean all</string>
+    <string name="saved">Saved</string>
+    <string name="moved_to_trash">Moved to Trash</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="choose_from_gallery">Choose from Gallery</string>
+    <string name="view">VIEW</string>
+    <string name="restored">Restored</string>
+    <string name="file_provider_authority" translatable="false">com.vbrazhnik.vbstorage</string>
+    <string name="enter_tag_name">Enter a tag name</string>
+    <string name="delete_tag">Delete tag?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="tag">Tag</string>
+    <string name="items_will_be_safe">will be deleted however media content in this tag will remain safe</string>
 </resources>

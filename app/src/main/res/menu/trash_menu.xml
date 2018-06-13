@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.MainActivity">
+
+    <item
+        android:id="@+id/clean_icon"
+        android:icon="@drawable/trash_clean"
+        android:orderInCategory="1"
+        android:title="@string/clean_all"
+        app:showAsAction="always"/>
+
+</menu>
